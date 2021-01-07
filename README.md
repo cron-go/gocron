@@ -1,3 +1,5 @@
+# 本项目在原有基础上修改了http参数分隔符，支持企业微信通知功能
+docker run --name gocron --link mysql:db -p 5920:5920 -d gocron/gocron
 # gocron - 定时任务管理系统
 [![Downloads](https://img.shields.io/github/downloads/ouqiang/gocron/total.svg)](https://github.com/ouqiang/gocron/releases)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ouqiang/gocron/blob/master/LICENSE)
